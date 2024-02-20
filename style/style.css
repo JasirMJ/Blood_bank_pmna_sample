@@ -1,0 +1,157 @@
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	top: 0px;
+	width: 1200px;
+	height: auto;
+
+	/*border-style: groove;*/
+}
+.content{
+	float: left;
+	border-style: groove;
+	background-color: #eee;
+	/*position:absolute;*/
+	display: inline-block;
+	/*height: 800px; ;*/
+	width: 800px;	
+	text-align: left;
+	padding-left: 10px;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.header{
+	background-color: red;
+}
+.header img{
+	height: 150px;
+	width: 1190px;
+}
+.nav_bar{
+	text-align: center;
+	background-color: red;
+
+}
+.nav_bar a{
+	text-decoration: none;
+	color: white;
+	font-size: 28px;
+}
+.nav_bar a:hover{
+	background-color: white;
+	color: red;
+}
+.nav_bar li{
+	height: auto;
+	width: 200px;
+}
+.slideshow img{
+	border-style: groove;
+	/*margin-left: 10px;*/
+	/*display: inline;*/
+	height: 300px;
+	width: 1200px;
+	/*float: left;*/
+	
+
+}
+.news{
+	border-style: groove;
+	width: 280px;
+	float: right;
+	height: 450px;
+	display: inline-block;
+	/*background-color: green;*/
+	}
+
+.news h2{
+	color: red;
+	font-size: 24px;
+	text-align: center;
+	border-style: groove;
+
+}
+.news_content {
+	border-style: groove;
+	height: 350px;
+	/*background-color: white;*/
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 10px;
+	/*padding-top: 10px;*/
+	padding-left: 10px;
+	padding-right: 18px;
+}
+.news_content marquee{
+	height: 350px;
+}
+.more{
+	width: 1200px;
+/*	opacity: 0.2;*/
+	/*position: fixed;*/
+	text-align: center;
+	bottom: 0;
+	border-style: groove;
+	background-color: black;
+}
+.more a{
+	/*position: fixed;*/
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	/*opacity: 10%;*/
+}
+.more a:hover{
+
+	color:black;
+	background-color: white;
+}
+.footer{
+	text-align: center;
+	vertical-align: center;
+	/*position: relative;*/
+	/*position: absolute;*/
+	/*margin-top: 80%;*/
+	/*bottom: 0;*/
+	width: 1200;
+	clear: both;
+	/*float: right;*/
+	/*padding-bottom: 10px;*/
+	height: 100px;
+	background-color: yellow;
+}
+
+.container_stock li{
+	list-style: none;
+}
+/*.blood_type img{
+	height: 200; width: 200;
+}*/
+
+
+.blood_type{
+	height:450px;
+	/*background-color: red;*/
+	padding-top: 80px;
+	margin: auto;
+	width: 900;
+	background-color: #eee;	
+	/*float: left;*/
+}
+.bloodgroups{
+	/*background-color: green;*/
+	height: 200px;width: 200px;
+	display: inline-block;
+}
+.bloodgroups .image{
+	background-color: yellow;
+	height: 150px;width: 180px;
+}
+.bloodgroups .image img{
+	height: 150px;
+	width: 180px;
+}
+.bloodgroups .details{
+	padding-top: 10px;
+
+}
